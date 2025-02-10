@@ -65,7 +65,7 @@ public class CollisionDetection extends JFrame {
 		public BallPanel(int numberOfBalls) {
 			this.setPreferredSize(new Dimension(PANEL_WIDTH, PANEL_HEIGHT));
 			this.setBackground(Color.black); // not necessary if you have image for background
-			background = new ImageIcon("C:\\Users\\ATychynsky\\OneDrive - MetLife\\Documents\\Yevheniia_University\\Assignments\\OOProgramming\\Assignment6_V2\\src\\sky.jpg").getImage();
+			background = new ImageIcon("C:\\your_file_location\\sky.jpg").getImage();
 			createBalls(numberOfBalls);
 		}
 		
